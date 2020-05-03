@@ -5,6 +5,7 @@
 - `**kwargs` << `dictionaries` [>>>](./ex_kwargs.py)
 - `os.path` << `os` 
   - create cross platform compatible file paths
+- basic python oop ( object oriented programming )
 
 ## good to have but not required knowledge
 
@@ -29,3 +30,4 @@
 - How to format datetime strings in python 
   - [strftime.org](https://strftime.org/)
   - [Python3 Official Docs](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior)
+
