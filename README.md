@@ -21,4 +21,9 @@
 
 ## resources
 
+- [Official Python3 Logger Docs](https://docs.python.org/3/library/logging.html#logging.basicConfig)
+  - Data fields that can be added to your logger [>>>](https://docs.python.org/3/library/logging.html#logrecord-attributes)
 - [Real Python Blog Article](https://realpython.com/python-logging/)
+- How to format datetime strings in python 
+  - [strftime.org](https://strftime.org/)
+  - [Python3 Official Docs](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior)

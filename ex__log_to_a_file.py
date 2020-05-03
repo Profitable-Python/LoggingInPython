@@ -13,14 +13,30 @@ LOGGER_CONFIG = {
     "format": "%(name)s - %(levelname)s - %(message)s",
 }
 
+LOGGER_CONFIG[
+    "format"
+] = "%(asctime)s | %(created)f | %(filename)s | %(funcName)s | %(levelname)s | %(message)s"
+
+LOGGER_CONFIG["datefmt"] = "%d-%b-%y %H:%M:%S"
+LOGGER_CONFIG["datefmt"] = "%Y-%m-%d %H:%M:%S %z"
+
 
 def main():
-    log_to_file()
+    configure_logger()
+    log_warning()
+    log_debug()
+    log_warning()
 
 
-def log_to_file():
+def configure_logger():
     logging.basicConfig(**LOGGER_CONFIG)
+
+
+def log_debug():
     logging.debug("this will get get logged")
+
+
+def log_warning():
     logging.warning("this will get logged to a file")
 
 
