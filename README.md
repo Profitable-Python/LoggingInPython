@@ -18,6 +18,8 @@
 
 - `filemode='w'` :: rewrites the log every time the script is run
 - `filemode='a'` :: default mode is append, log continues to grow with each script
+- best practice for logging stack trace so it can be easily parsed with analytics like pandas?
+  - format the result with the log level at the beginning so conditional logic can applied (if log level == ERROR then while loop )
 
 ## resources
 
