@@ -1,5 +1,7 @@
 # Logging in Python
 
+## Here is the live stream [replay](https://youtu.be/R8YH8O6tu1k) of me going through the [Real Python](https://realpython.com/python-logging/) article by [Abhinav Ajitsaria](https://realpython.com/team/aajitsaria/)
+
 ## pre-requisite knowledge
 
 - `**kwargs` << `dictionaries` [>>>](./ex_kwargs.py)
